@@ -59,6 +59,10 @@
 	acronym:hover, abbr:hover {
 		color: #725C5A;
 	}
+
+	a.name { color: #851C1C; }
+	a.phoneto { color: #546EB3; }
+	a.emailto { color: #8D4900; }
 	.button {
 		padding: 0 2.25em 0 2.25em;
 		font-size: 0.9em;
