@@ -63,6 +63,15 @@
 	a.name { color: #851C1C; }
 	a.phoneto { color: #546EB3; }
 	a.emailto { color: #8D4900; }
+
+	img.frame-1 {
+		border-image:url("../resources/images/flower-frame.png") 50% repeat stretch;
+	}
+
+	iframe.gm-video {
+		width: 680px;
+		height: 382px;
+	}
 	.button {
 		padding: 0 2.25em 0 2.25em;
 		font-size: 0.9em;

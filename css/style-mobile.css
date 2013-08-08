@@ -61,7 +61,10 @@
 		form textarea
 		{
 		}
-
+	iframe.gm-video {
+		width: 320px;
+		height: 180px;
+	}
 	.image-featured
 	{
 		position: relative;
@@ -293,12 +296,12 @@
 
 	#header-wrapper
 	{
-		padding: 6em 2em 6em 2em;
+		padding: 7em 2em 6em 2em;
 	}
 
 	#footer-wrapper
 	{
-		padding-top: 3em;
+		padding-top: 0;
 	}
 
 		#footer-wrapper .feature-list section
@@ -307,12 +310,21 @@
 			border-top-color: rgba(255,255,255,0.05);
 		}
 
+		#footer-wrapper .row > div {
+			padding-left: 1em !important;
+		}
+
+	#mahamantra span {
+		width: 10em;
+		display: inline-block;
+		overflow: hidden;
+		height: 2.5em;
+	}
 /*********************************************************************************/
 /* Header                                                                        */
 /*********************************************************************************/
 
-	#header
-	{
+	#header {
 	}
 
 /*********************************************************************************/
@@ -329,7 +341,31 @@
 			font-size: 1.5em;
 			letter-spacing: 0.2em;
 		}
-		
+
+		.motto.byline {
+			float: right;
+			margin-top: 1em;
+			color: #f5f5f5;
+			font-style: italic;
+		}
+		#logo .small-logo {
+			position: absolute;
+			display: inline-block;
+			top: 8px;
+			left: 140px;
+			padding: 14px 10px 0px 6px;
+			border-radius: 50%;
+			background: #fff;
+			-webkit-transition: all 0.18s ease-in-out;
+			-moz-transition: all 0.18s ease-in-out;
+			transition: all 0.18s ease-in-out;
+			box-shadow: 0 0 15px #FFF;
+		}
+
+		#logo .small-logo img {
+			width: 50px;
+		}
+
 		#logo .byline
 		{
 			margin: 1.25em 0 0 0;
