@@ -34,6 +34,7 @@
 	#header-wrapper
 	{
 		height: 400px !important;
+		background-repeat: no-repeat;
 	}
 
 	#intro-wrapper
@@ -81,6 +82,11 @@
 	#logo .small-logo img {
 		width: 36px;
 	}
+
+	.motto.byline {
+		font-size: 17px;
+	}
+
 /*********************************************************************************/
 /* Intro                                                                         */
 /*********************************************************************************/

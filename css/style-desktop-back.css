@@ -45,11 +45,6 @@
 			line-height: 1.5em;
 		}
 
-	header.style2 {
-		padding: 1em 0 2.5em 0;
-		text-align: center;
-	}
-
 	form {
 	}
 	
@@ -181,10 +176,10 @@
 				display: block;
 			}
 
-	.donate p {
+	#donate p {
 		margin: 0.5em 0;
 	}
-	.donate p:before {
+	#donate p:before {
 		width: 30px;
 	}
 	.is {
@@ -341,7 +336,7 @@
 	#logo {
 		position: relative;
 		height: 5em;
-		top: 55%;
+		top: 35%;
 		left: 0;
 		width: 100%;
 		text-align: center;
@@ -353,7 +348,7 @@
 		}
 
 		#logo h1 {
-			font-size: 5em;
+			font-size: 6em;
 			text-align: center;
 			letter-spacing: 0.25em;
 		}
@@ -361,28 +356,24 @@
 		#logo .byline {
 			margin: 2.25em 0 0 0;
 			display: block;
-			text-align: center;
-			padding-left: 4em;
 			letter-spacing: 0.2em;
 			font-size: 0.9em;
-			font-weight: bold;
 		}
 
 	.motto.byline {
-		top: 79%;
+		top: 73%;
 		position: absolute;
 		right: 0;
-		color: #0f0f0f;
+		color: #eee;
 		font-size: 20px;
 		font-style: italic;
-		text-shadow: 1px 1px 1px #fff;
 	}
 
 	#logo .small-logo {
 		position: absolute;
 		display: inline-block;
-		top: -47px;
-		left: 198px;
+		top: -45px;
+		left: 140px;
 		padding: 14px 10px 0px 6px;
 		border-radius: 50%;
 		background: #fff;
@@ -513,6 +504,9 @@
 
 	#intro {
 		text-align: center;
+	}
+	#donation-schemes {
+		text-align: right;
 	}
 
 		#intro .style1 {

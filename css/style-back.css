@@ -201,9 +201,6 @@
 	.nobr {
 		white-space: nowrap;
 	}
-	.no-overflow {
-		overflow: hidden !important;
-	}
 
 	br.clear {
 		clear: both;
@@ -392,14 +389,7 @@
 	
 	ol.style1 {
 	}
-
-	h3.style4 {
-		font-size: 1.2em;
-		border-bottom: 2px dotted #c66637;
-		padding-bottom: 0.3em;
-		margin-bottom: 0.5em;
-	}
-
+		
 	.actions {
 	}
 
@@ -466,13 +456,8 @@
 			transform: scaleX(-1);
     	}
 
-    	.wrapper .mobile-title {
-    		display: none;
-    	}
-
 	#header-wrapper {
-		background: url('../resources/images/lord-krishna.jpg') center 47% no-repeat;
-		background-size: 100%;
+		background: url('../resources/images/nitc.jpg') center center;
 		background-size: cover;
 	}
 	
@@ -627,11 +612,12 @@
 		#logo h1 {
 			font-weight: 900;
 			text-transform: uppercase;
-			color: #8D1C06;
+			color: #fff;
 		}
 
 		#logo .byline {
-			color: #1F2979;
+			color: #eee;
+			color: rgba(255,255,255,0.5);
 			text-transform: uppercase;
 		}
 
@@ -659,27 +645,7 @@
 		
 		#intro .style3 {
 		}
-
-#chaitanya-pr {
-	position: fixed;
-	cursor: pointer;
-	z-index: 10000;
-	background: #fff url('images/overlay.png');
-}
-
-#chaitanya-pr .img-holder {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	margin-top: -230px;
-	margin-left: -312px;
-}
-
-#chaitanya-pr img {
-	cursor: pointer;
-	box-shadow: 0 0 20px rgba(0,0,0,0.5);
-}
-
+		
 /*********************************************************************************/
 /* Highlights                                                                    */
 /*********************************************************************************/
