@@ -291,9 +291,9 @@
         ;
       } else {
         $(document.body).addClass('no-overflow');
-        $('#chaitanya-pr')
+        $('#chaitanya-pr').delay(100)
           .width( $(window).width() )
-          .height( $(window).height() )
+          .height( $(window).height() + 20 )
           .show();
       }
     }

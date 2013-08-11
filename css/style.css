@@ -660,25 +660,6 @@
 		#intro .style3 {
 		}
 
-#chaitanya-pr {
-	position: fixed;
-	cursor: pointer;
-	z-index: 10000;
-	background: #fff url('images/overlay.png');
-}
-
-#chaitanya-pr .img-holder {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	margin-top: -230px;
-	margin-left: -312px;
-}
-
-#chaitanya-pr img {
-	cursor: pointer;
-	box-shadow: 0 0 20px rgba(0,0,0,0.5);
-}
 
 /*********************************************************************************/
 /* Highlights                                                                    */
