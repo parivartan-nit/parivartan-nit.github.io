@@ -290,12 +290,12 @@
 
 		.wrapper .title {
 			font-size: 0.9em;
-			width: 990px;
+			width: 820px;
 			height: 3.25em;
 			top: -3.25em;
 			line-height: 3.25em;
 			margin-bottom: -3.25em;
-			margin-left: -495px;
+			margin-left: -420px;
 			padding-top: 0.5em;
 		}
 		.wrapper .exception {
@@ -306,7 +306,7 @@
 			margin-top: 0;
 			margin-bottom: 3em;
 		}
-	#mahamantra { font-size: 0.8em; }
+	#mahamantra { width: 990px; font-size: 0.8em; margin-left: -495px; }
 
 	#header-wrapper {
 		padding: 0;
